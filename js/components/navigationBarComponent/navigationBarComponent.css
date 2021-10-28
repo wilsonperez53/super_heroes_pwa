@@ -1,0 +1,28 @@
+.navigationBarComponent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: var(--nav-bar-height);
+  background-color: var(--primary-color);
+}
+
+.navigationBarComponent_backBtn {
+  font-weight: bold;
+  color: white;
+  margin-left: 20px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.navigationBarComponent_addBtn {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  margin-right: 20px;
+  user-select: none;
+  cursor: pointer;
+}

@@ -1,0 +1,89 @@
+/*
+ Global color vars
+*/
+:root {
+  --primary-color: #00aaff;
+  --secondary-color: #f50057;
+  --main-background-color: #f0f0f0;
+  --nav-bar-height: 70px;
+  --nav-bar-background-color: #1936da;
+  --error-color: red;
+  --villian-color: red;
+  --hero-color: blue;
+  --fade-background-color: rgb(0, 0, 0, 0.5);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*h1 {
+  color: var(--primary-color);
+}
+
+h2 {
+  color: var(--secondary-color);
+}
+
+button {
+  min-width: 60px;
+  border-style: none;
+  padding: 10px;
+  margin: 5px;
+  font-weight: bold;
+  color: white;
+  background-color: var(--secondary-color);
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}*/
+
+.hide {
+  display: none !important;
+}
+
+.requiredHTTPS {
+  width: 100%;
+  height: var(--nav-bar-height);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--error-color);
+  font-size: 9px;
+  bottom: 0px;
+  position: fixed;
+  z-index: 16;
+}
+
+.requiredHTTPS_text {
+  font-weight: bold;
+  color: white;
+}
+
+.installContainer {
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+  height: var(--nav-bar-height);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--error-color);
+  font-size: 9px;
+  z-index: 15;
+}
+
+.installButton {
+  width: 80%;
+  height: 80%;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: var(--primary-color);
+}

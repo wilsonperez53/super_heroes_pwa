@@ -1,0 +1,97 @@
+.addSuperComponent {
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 86%;
+  background-color: var(--main-background-color);
+  top: var(--nav-bar-height);
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.addSuperComponent_formContainer {
+  width: 80%;
+}
+
+.addSuperComponent_powersContainer {
+  width: 100%;
+  height: auto;
+}
+
+.addSuperComponent_submitBtn {
+  width: 100%;
+  height: 45px;
+  background-color: var(--secondary-color);
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  user-select: none;
+  cursor: pointer;
+}
+.addSuperComponent_addPowerBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  height: 50px;
+  background-color: var(--secondary-color);
+  margin-top: 20px;
+  border-radius: 5px;
+  user-select: none;
+  cursor: pointer;
+}
+.addSuperComponent_typesContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+.addSuperComponent_heroBtn {
+  width: 40%;
+  height: 40px;
+  background-color: var(--hero-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.addSuperComponent_villianBtn {
+  width: 40%;
+  height: 40px;
+  background-color: var(--villian-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.addSuperComponent_heroBtn_selected {
+  border-width: 3px;
+  border-color: yellow;
+  box-sizing: border-box;
+  border-style: solid;
+}
+
+.addSuperComponent_villianBtn_selected {
+  border-width: 5px;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.addSuperComponent_title {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+{
+    "short_name":"supers",
+    "name":"Wilson's supers",
+    "icons":[
+        {
+            "src":"/images/icon512.png",
+            "type":"image/png",
+            "sizes":"512x512",
+            "purpose":"maskable"
+        },
+        {
+            "src":"/images/icon196.png",
+            "type":"image/png",
+            "sizes":"196x196"
+        },
+        {
+            "src":"/images/icon192.png",
+            "type":"image/png",
+            "sizes":"192x192"
+        }
+    ],
+    "start_url":"/",
+    "prefer_related_applications": true,
+    "background_color":"#f0f0f0",
+    "display":"standalone", 
+    "scope":"/",
+    "description":"Hire you own hero",
+    "theme_color":"#f0f0f0"
+}

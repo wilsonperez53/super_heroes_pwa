@@ -1,0 +1,69 @@
+.superDetailsComponent {
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: var(--nav-bar-height);
+  pointer-events: none;
+}
+
+.superDetailsComponent_data {
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  position: fixed;
+  background-color: var(--main-background-color);
+  top: var(--nav-bar-height);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.superDetailsComponent_fade {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  position: fixed;
+  background-color: var(--fade-background-color);
+  top: var(--nav-bar-height);
+}
+.superDetailsComponent_image {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+.superDetailsComponent_imageContainer {
+  width: 200px;
+  height: 200px;
+}
+
+.superDetailsComponent_textContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.superDetailsComponent_text {
+  font-weight: bold;
+}
+
+.superDetailsComponent_biography {
+  margin: 10px 10% 0px 10%;
+  text-align: justify;
+  line-height: 23px;
+}
+
+.superDetailsComponent_hireBtn {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  width: 80%;
+  height: 50px;
+  margin: 20px 0px 0px 0px;
+}

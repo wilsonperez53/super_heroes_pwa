@@ -1,0 +1,40 @@
+.superComponent {
+  border-radius: 15px;
+  width: 100%;
+  height: 100px;
+  background-color: bisque;
+  margin: 5px 5px 0px 5px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.superComponent_imageContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+.superComponent_image {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+.superComponent_infoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.superComponent_textContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.superComponent_heroe {
+  color: var (--hero-color);
+}
+
+.superComponent_villain {
+  color: var (--villian-color);
+}

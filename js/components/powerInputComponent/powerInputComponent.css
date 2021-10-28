@@ -1,0 +1,45 @@
+.powerpowerInputComponent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.powerInputComponent_input {
+  height: 40px;
+  border-color: var(--primary-color);
+  font-size: 16px;
+  /*margin: 10px;*/
+  padding: 5px;
+  border-width: 3px;
+  width: 85%;
+}
+
+.powerInputComponent_error {
+  height: 10px;
+  font: var(--error-color);
+  font-size: 16px;
+  /*margin: 10px;*/
+}
+
+.powerInputComponent_input_error {
+  border-color: var(--error-color);
+}
+
+.powerInputComponent_removeBtn {
+  width: 10%;
+  height: 50px;
+  background-color: var(--villian-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+}
+
+.powerInputComponent_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
